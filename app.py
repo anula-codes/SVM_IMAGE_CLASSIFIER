@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-with open("model_svm.pkl", "rb") as f:
+with open("model _svm.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("AI vs Real Image Classifier")
